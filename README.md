@@ -2,6 +2,7 @@
 # GAN Training on WikiArt Dataset
 
 This project implements a Generative Adversarial Network (GAN) trained on the **WikiArt dataset**, which includes images of artwork across various genres. The GAN architecture consists of a **Generator** for creating synthetic images and a **Discriminator** for differentiating between real and fake images. The model is implemented in PyTorch.
+<img width="571" alt="structure" src="https://github.com/user-attachments/assets/2a344d1c-bdd5-48ef-8730-d5d171d9b855">
 
 
 
