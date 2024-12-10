@@ -8,11 +8,12 @@ This project implements a Generative Adversarial Network (GAN) trained on the **
 ## Project Structure
   ```
 ├── dataset.py                  # Script for handling data loading and preprocessing
-├── images/                     # Directory containing artwork images (subdirectories for each genre)
+├── __init__.py                 # Initialize the model
 ├── models.py                   # Contains Generator and Discriminator models
-├── new_classes.csv             # CSV file mapping images to their metadata (e.g., artist, genre)
-├── output/                     # Directory to save generated images during training
+├── classes.csv                 # CSV file mapping images to their metadata (e.g., artist, genre)
 ├── training.py                 # Script for training the GAN
+├── output/                     # Directory to save generated images during training
+├── images/                     # Directory containing artwork images (subdirectories for each genre)
 └── README.md                   # This README file
 
  ```
@@ -54,6 +55,11 @@ Run the training script using:
 ```bash
 python training.py
 ```
+or 
+```bash
+python __init__.py
+```
+
 
 ### 3. Generated Images
 The script will save generated images in the `output/` directory after each epoch. Images are named as `fake_{epoch_number}.png`.
