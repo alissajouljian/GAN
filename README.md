@@ -39,6 +39,7 @@ Ensure you have the following installed:
   ├── Realism/
   ...
   ```
+  Downloaded from https://www.kaggle.com/datasets/steubk/wikiart
 
 
 ## How to Use
