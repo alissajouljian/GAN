@@ -3,10 +3,10 @@
 
 This project implements a Generative Adversarial Network (GAN) trained on the **WikiArt dataset**, which includes images of artwork across various genres. The GAN architecture consists of a **Generator** for creating synthetic images and a **Discriminator** for differentiating between real and fake images. The model is implemented in PyTorch.
 
----
+
 
 ## Project Structure
-
+  ```
 ├── dataset.py                  # Script for handling data loading and preprocessing
 ├── images/                     # Directory containing artwork images (subdirectories for each genre)
 ├── models.py                   # Contains Generator and Discriminator models
@@ -15,7 +15,7 @@ This project implements a Generative Adversarial Network (GAN) trained on the **
 ├── training.py                 # Script for training the GAN
 └── README.md                   # This README file
 
-
+ ```
 ---
 
 ## Setup Instructions
@@ -38,7 +38,7 @@ Ensure you have the following installed:
   ├── Realism/
   ...
   ```
----
+
 
 ## How to Use
 
@@ -58,7 +58,7 @@ python training.py
 ### 3. Generated Images
 The script will save generated images in the `output/` directory after each epoch. Images are named as `fake_{epoch_number}.png`.
 
----
+
 
 ## Code Workflow
 
@@ -77,7 +77,7 @@ The script will save generated images in the `output/` directory after each epoc
 - Losses for both networks are logged for monitoring.
 
 
----
+
 
 ## Key Details
 
@@ -96,7 +96,7 @@ The WikiArt dataset contains thousands of artwork images from various genres and
   ```
 - The inverse transformation (`denorm`) is applied before saving generated images.
 
----
+
 
 
 
